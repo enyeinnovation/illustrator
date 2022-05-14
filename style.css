@@ -1,0 +1,17 @@
+@import url(https://fgp.one/icon?2);
+/*  */
+@import url(styles/container.css);
+@import url(styles/elements.css);
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/footer.css);
+@import url(styles/responsive.css);
+
+:root {
+  --bg1: linear-gradient(45deg, #38cf, #74ac, #f3af);
+}
+
+* {
+  /* border: 1px dashed #fffa; */
+  /* box-sizing: border-box; */
+}
