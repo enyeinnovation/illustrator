@@ -1,11 +1,11 @@
-@import url(https://fgp.one/icon?2);
+@import url(https://frankgp.com/icon/fgp-icons.css?220708);
 /*  */
-@import url(styles/container.css);
-@import url(styles/elements.css);
-@import url(styles/header.css);
-@import url(styles/main.css);
-@import url(styles/footer.css);
-@import url(styles/responsive.css);
+@import url(styles/container.css?220708);
+@import url(styles/elements.css?220708);
+@import url(styles/header.css?220708);
+@import url(styles/main.css?220708);
+@import url(styles/footer.css?220708);
+@import url(styles/responsive.css?220708);
 
 :root {
   --bg1: linear-gradient(45deg, #38cf, #74ac, #f3af);
