@@ -1,0 +1,8 @@
+header img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #f3af, 0 0 0 10px #eed;
+}
+header p {
+  width: 32ch;
+  margin: 1rem auto;
+}
