@@ -35,10 +35,10 @@ let head1 = /*html*/ `
     <link rel="icon" href="https://i.postimg.cc/g2hxXX7y/favicon-150px.png" sizes="32x32" />
     <link rel="icon" href="https://i.postimg.cc/66VzRqkX/favicon-256px.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://i.postimg.cc/66VzRqkX/favicon-256px.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <!-- <link rel="stylesheet" href="style.css?220708" /> -->
     <style>
-      @import "https://frankgp.com/icon/icomoon/style.css";
       body {
         background-color: #347;
         background-image: url(https://i.postimg.cc/XYRBgC2K/bg.webp);
@@ -133,34 +133,53 @@ document.head.innerHTML = head1;
 // ========== body... ==========
 
 let body1 = /*html*/ `
-    <main>
-      <header>
-        <div>
-          <img src="https://i.postimg.cc/FsJq2NqC/profile.webp" alt="illustrator" width="120" height="120" />
-        </div>
-        <h3>Elizabeths Rosacea</h3>
-        <h1>ILLUSTRATOR</h1>
-        <p>I specialize in creating vector illustrations in Adobe Illustrator.</p>
-      </header>
-      <nav>
-        <a class="btn" href="http://behance.net/elizavewestley" target="_blank" rel="noopener noreferrer"> <i class="icon-public"></i> Portfolio in Behance</a>
-        <a class="btn" href="http://instagram.com/lizzie.illustrator/" target="_blank" rel="noopener noreferrer"><i class="icon-instagram"></i>Blog in Instagram</a>
-        <a class="btn" href="em4il" target="_blank" rel="noopener noreferrer"> <i class="icon-mail"></i>E-Mail</a>
-      </nav>
-      <h2>Contact Me If You Need:</h2>
-      <p>Corporate identity</p>
-      <p>Flat illustrations</p>
-      <p>Illustrations for your brand</p>
-      <p>Icon and logo</p>
-      <footer>
-        <a href="http://instagram.com/elizabeths.rosacea" class="icon" target="_blank" rel="noopener noreferrer" aria-label="instagram"><i class="icon-instagram"></i> </a>
-        <a href="http://vk.com/elizaveta_martovskay" class="icon" target="_blank" rel="noopener noreferrer" aria-label="vk"><i class="icon-vk"></i> </a>
-        <address><i class="icon-location"></i> Saint Petersburg, Russian Federations</address>
-      </footer>
-    </main>
-    <cite
-      ><small>© 2022 Designed by <a href="http://frankgp.com" target="_blank" rel="noopener noreferrer" aria-label="link">frankgp.com</a> </small>
-    </cite>
+<main>
+  <header>
+    <div>
+      <img src="https://i.postimg.cc/FsJq2NqC/profile.webp" alt="illustrator" width="120" height="120" />
+    </div>
+    <h3>Elizabeths Rosacea</h3>
+    <h1>ILLUSTRATOR</h1>
+    <p>I specialize in creating vector illustrations in Adobe Illustrator.</p>
+  </header>
+
+  <nav>
+    <a class="btn" href="http://behance.net/elizavewestley" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-behance"></i> Portfolio in Behance
+    </a>
+    <a class="btn" href="http://instagram.com/lizzie.illustrator/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i> Blog in Instagram
+    </a>
+    <a class="btn" href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">
+    <i class="fa-regular fa-envelope"></i> E-Mail
+    </a>
+  </nav>
+
+  <h2>Contact Me If You Need:</h2>
+  <p>Corporate identity</p>
+  <p>Flat illustrations</p>
+  <p>Illustrations for your brand</p>
+  <p>Icon and logo</p>
+
+  <footer>
+    <a href="http://instagram.com/elizabeths.rosacea" class="icon" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="http://vk.com/elizaveta_martovskay" class="icon" target="_blank" rel="noopener noreferrer" aria-label="vk">
+      <i class="fab fa-vk"></i>
+    </a>
+    <address>
+      <i class="fas fa-map-marker-alt"></i> Saint Petersburg, Russian Federations
+    </address>
+  </footer>
+</main>
+
+<cite>
+  <small>© 2022 Designed by 
+    <a href="http://frankgp.com" target="_blank" rel="noopener noreferrer" aria-label="link">frankgp.com</a>
+  </small>
+</cite>
+
 `;
 
 // document.body.insertAdjacentHTML("afterbegin", body1);
